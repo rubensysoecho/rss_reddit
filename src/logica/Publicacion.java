@@ -25,4 +25,9 @@ public class Publicacion {
 		return link;
 	}
 
+	@Override
+	public String toString() {
+		String string = "Titulo:" + titulo + " Usuario:" + usuario.getNick() + " Link:" + link;
+		return string;
+	}
 }
